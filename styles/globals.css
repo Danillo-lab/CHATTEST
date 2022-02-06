@@ -1,16 +1,36 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.App {
+    background-color: gray;
+    margin: 0 auto;
 }
 
-* {
-  box-sizing: border-box;
+.contain {
+    position: relative;
+    margin: 30px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.field {
+    position: relative;
+    display: block;
+    height: 40px;
+    width: 90%;
+    background-color: transparent;
+    border-radius: 30px;
+    margin: 600px auto;
+}
+
+button {
+    position: absolute;
+    bottom: 7px;
+    right: 7px;
+    transform: translateX(20px);
+    margin: 0 auto;
 }
