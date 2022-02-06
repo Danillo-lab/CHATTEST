@@ -16,7 +16,7 @@ export default function Home() {
     })
     
     return (
-        <div class="App">
+        <div>
             <div class="contain">
                 <h1>FRONT END TO CHAT!</h1>
                 {list.map((p) => (
